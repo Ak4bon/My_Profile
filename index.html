@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortForio</title>
+    <meta name="discription" content="This site is my PortForio" />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles/loader.css" />
+    <script src="scripts/venders/pace.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/venders/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/venders/swiper.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <div class="nav-trigger"></div>
+        <header class="header">
+          <div class="header__inner appear up">
+            <div class="logo item">
+              <img src="images/logo.svg" alt="" class="logo__img" />
+              <span class="logo__stay">Shuto</span>
+              <span class="logo__world">Naya</span>
+            </div>
+            <nav class="header__nav">
+              <ul class="header__ul">
+                <li class="header__li item">
+                  <a class="btn filled" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+        <div id="content">
+          <div class="hero">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="hero__title">自己紹介</div>
+                  <img src="images/profile.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">学んだもの</div>
+                  <img src="images/manabi.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">作ったもの</div>
+                  <img src="images/Seisaku.jpg" alt="" />
+                </div>
+                ...
+              </div>
+              <div class="hero__footer">
+                <img class="hero__downarrow" src="images/arrow.svg" alt="" />
+                <span class="hero__scrolltext">scroll</span>
+              </div>
+            </div>
+          </div>
+          <div id="main-content">
+            <aside class="side left">
+              <div class="side__inner">
+                <a class="twitter icon tween-animate-title" href="#">Twitter</a>
+              </div>
+            </aside>
+            <main>
+              <section class="profile">
+                <div class="profile__inner">
+                  <div class="profile__img cover-slide">
+                    <img
+                      class="img-zoom"
+                      src="images/image-travel.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="profile__text appear left">
+                    <div class="profile__text-inner">
+                      <div class="profile__title main-title item">
+                        <span class="purple">自己</span>
+                        <span>紹介</span>
+                      </div>
+                      <div class="profile__sub sub-title item">Shuto Naya</div>
+                      <div class="profile__discription item">
+                        <p>
+                          24歳エンジニア志望です。
+                          前職では総合職として入社した会社の中で介護事業に携わっていましたが、将来自分自身にスキルが付く仕事がしたいと思い退職。
+                          動画編集や画像加工などを学んでみましたが、プログラミングでものづくりがしたいと思い始めエンジニアになろうと決意。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="learn">
+                <div>
+                  <h2 class="main-title tween-animate-title">学んだこと</h2>
+                  <p class="sub-title tween-animate-title">一覧</p>
+                </div>
+                <div class="learn__inner">
+                  <div class="learn__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="
+                          background-image: url(images/html.jpg);
+                          background-size: contain;
+                        "
+                      ></div>
+                    </div>
+                    <p class="learn__title">HTML</p>
+                  </div>
+                  <div class="learn__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="
+                          background-image: url(images/CSS.jpg);
+                          background-size: contain;
+                        "
+                      ></div>
+                    </div>
+                    <p class="learn__title">CSS(SCSS)</p>
+                  </div>
+                  <div class="learn__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="
+                          background-image: url(images/Javascript.jpg);
+                          background-size: contain;
+                        "
+                      ></div>
+                    </div>
+                    <p class="learn__title">JavaScript</p>
+                  </div>
+                  <div class="learn__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="
+                          background-image: url(images/Ruby.jpg);
+                          background-size: contain;
+                        "
+                      ></div>
+                    </div>
+                    <p class="learn__title">Ruby(Rails)</p>
+                  </div>
+                  <div class="learn__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="
+                          background-image: url(images/Linux.jpg);
+                          background-size: contain;
+                        "
+                      ></div>
+                    </div>
+                    <p class="learn__title">Linuxコマンド</p>
+                  </div>
+                  <div class="learn__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="
+                          background-image: url(images/VirtualBox.jpg);
+                          background-size: contain;
+                        "
+                      ></div>
+                    </div>
+                    <p class="learn__title">
+                      VirtualBoxを使用した仮想環境の立ち上げ
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="create">
+                <div class="create__header">
+                  <div>
+                    <h2 class="main-title tween-animate-title">作ったもの</h2>
+                    <p class="sub-title tween-animate-title">一覧</p>
+                  </div>
+                </div>
+                <div class="create__inner appear up">
+                  <div class="create__container">
+                    <div class="create__item item">
+                      <div class="create__img">
+                        <img src="images/Portforio.jpg" alt="" />
+                      </div>
+                      <div class="create__title">ポートフォリオ(本サイト)</div>
+                    </div>
+                    <div class="create__item item">
+                      <div class="create__img">
+                        <img src="images/image-p2.jpg" alt="" />
+                      </div>
+                      <div class="create__title">今後更新予定</div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+            <aside class="side right">
+              <div class="side__inner">
+                <span class="tween-animate-title">&copy;Shuto Naya</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+        <footer class="footer appear up">
+          <div class="logo item">
+            <img src="images/logo.svg" alt="" class="logo__img" />
+            <span class="logo__stay">Shuto</span>
+            <span class="logo__world">Naya</span>
+          </div>
+          <nav class="footer__nav">
+            <div class="footer__copyright item">&copy; Shuto Naya</div>
+          </nav>
+        </footer>
+      </div>
+      <nav class="mobile-menu">
+        <div class="logo">
+          <img src="images/logo.svg" alt="" class="logo__img" />
+          <span class="logo__stay">Shuto</span>
+          <span class="logo__world">Naya</span>
+        </div>
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">自己紹介</span>
+              <span class="sub-title">私について</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">学んできたもの</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">作ったもの</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- <div class="tween-animate-title">Animation Title</div> -->
+    <!-- <div class="cover-slide hover-darken inview">
+      <div class="bg-img-zoom img-bg50"></div>
+    </div> -->
+    <!-- <-- <div class="cover-slide hover-darken inview">
+      <img class="img-zoom" src="images/image-1.jpg" alt="" /> -->
+    <!-- </div> -->
+    <!-- <button class="btn float">Button</button>
+    <button class="btn filled">Button</button>
+    <button class="btn letter-spacing">Button</button>
+    <button class="btn shadow">Button</button>
+    <button class="btn solid">Button</button>
+    <button class="btn cover-3d">Button</button>
+    <a class="btn-cubic"
+      ><span class="hovering">Now, Hovering</span
+      ><span class="default">Button</span></a -->
+    <!-- > -->
+
+    <script src="scripts/venders/TweenMax.min.js"></script>
+    <script src="scripts/venders/swiper.min.js"></script>
+    <script src="scripts/venders/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
+    <script src="scripts/libs/text-animation.js"></script>
+    <script src="scripts/libs/hero-slider.js"></script>
+    <script src="scripts/libs/mobile-menu.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
